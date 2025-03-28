@@ -1,54 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 100 100"
-  xmlns="http://www.w3.org/2000/svg" version="1.1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg
+  preserveAspectRatio='xMidYMid meet'
+  version='1.1'
+  viewBox='0 0 100 100'
+  xml:space='default'
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  >
   <path
-    d="m 65,3 0,19 19,0 z"
-    fill="white"
-    stroke="none"
+    d='
+      m 65,3 0,19 19,0 z
+    '
+    fill='white'
+    stroke='none'
     />
   <path
-    d="
+    d='
       m 65,3 0,19 19,0 0,74 -72,0 0,-93 53,0 19,19z
-    "
-    fill="#EBEBDA"
-    stroke="#777"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="2"
+    '
+    fill='#EBEBDA'
+    stroke='#777'
+    stroke-linecap='round'
+    stroke-linejoin='round'
+    stroke-width='2'
     />
   <path
-    d="
+    d='
       m 21,26 54,0 -54,0 z
       m 0,9 54,0 -54,0 z
       m 0,9 54,0 -54,0 z
       m 0,8 23,0 -23,0 z
       m 0,10 54,0 -54,0 z
-    "
-    fill="none"
-    stroke="#444"
-    stroke-width="2"
+    '
+    fill='none'
+    stroke='#444'
+    stroke-width='2'
     />
   <path
-    d="
+    d='
       M 25,68 85,5
       c 0,0 5,1 8,4 3,3 4,8 4,8
       L 38,80 22,84 z
-    "
-    fill="#CF9100"
-    stroke="#333"
-    stroke-width="2"
+    '
+    fill='#CF9100'
+    stroke='#333'
+    stroke-width='2'
     />
   <path
-    d="
+    d='
       M 85,9 28,69 30,71 87,11 z
-    "
-    fill="#EEE"
+    '
+    fill='#EEE'
     />
   <path
-    d="
+    d='
       m 22,84 7,-2 -5,-5 z
-    "
-    fill="#333"
+    '
+    fill='#333'
     />
 </svg>

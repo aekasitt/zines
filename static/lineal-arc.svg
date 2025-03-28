@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg
-  viewBox="0 0 300 120"
-  version="1.1"
-  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio='xMidYMid meet'
+  version='1.1'
+  viewBox='0 0 300 120'
+  xml:space='default'
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
   >
   <defs>
     <path id='arc'
-      d="
+      d='
         M30,100
-        c0,0 110,-80 240,0z"
-      />
+        c0,0 110,-80 240,0z
+      '
+    />
     <style>
       @font-face {
         font-family: 'Coffee and Crafts';
