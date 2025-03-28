@@ -409,14 +409,14 @@
     style='position: absolute; right: 2.4cm; top: 9cm; transform: rotate(-90deg); width: 1cm;'
     >
   <img
-    alt='Goth again'
-    src='./static/goth.svg'
-    style='position: absolute; right: .2cm; bottom: .8cm; width: 2cm;'
-    >
-  <img
     alt='Bubble tail again'
     src='./static/bubble-tail.svg'
-    style='position: absolute; right: 1.8cm; bottom: 2.2cm; width: 1.2cm; transform: scaleY(-1)'
+    style='position: absolute; right: 1.8cm; bottom: 1.8cm; width: 1.2cm; transform: scaleY(-1);'
+    >
+  <img
+    alt='Goth again'
+    src='./static/goth.svg'
+    style='position: absolute; right: .2cm; bottom: .4cm; width: 2cm;'
     >
 </zine-page>
 
