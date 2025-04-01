@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg
+  preserveAspectRatio='xMidYMid meet'
+  version='1.1'
+  viewBox='0 0 24 24'
+  xml:space='default'
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  >
+  <g
+    stroke='black'
+    stroke-linecap='round'
+    stroke-linejoin='round'
+    stroke-width='2'
+    >
+    <path
+      d='
+        M9 10
+        H15z
+      '
+    />
+    <path
+      d='
+        M9 14
+        H15z
+      '
+    />
+  </g>
+</svg>
