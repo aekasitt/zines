@@ -319,6 +319,45 @@
   <page-num>
     7
   </page-num>
+  <p class='text-squeezed'>
+    <strong>
+      ☆ BIP-341: Script Trees + Taproot ☆
+    </strong>
+    <br />
+    This BIP is made of 2 thigs:
+  <p>
+  <ol class='text-left text-squeezed' style='padding: 0 1.6cm;'>
+    <li>
+      <strong>
+        Script trees:
+      </strong>
+      Tree-like data structures used to compactly encode multiple scripts.
+      In this BIP, each leaf represents a single script and only one leaf
+      may be chosen by the spender. The spender is responsible for showing
+      the path of the leaf (AKA the "Merkle branch").
+    </li>
+    <li>
+      <strong>
+        Taproot:
+      </strong>
+      A technique that allows a coin to be spent by public key OR by script.
+      Taproot leverages the power of MAST and Schnorr to make transactions more
+      <strong>
+        flexible, private and efficient.
+      </strong>
+      With Taproot, you can set up many different spending constraints, but only
+      reveal the one that is used!
+    </li>
+  </ol>
+  <p class='text-squeezed'>
+    <strong>
+      ☆ BIP-342: Tapscript ☆
+    </strong>
+    <br />
+    Script is the <s>terribly uncreative</s>
+    name for <bitcoin></bitcoin>'s smart contract language. Tapscript is an
+    upgraded scripting language that supports Schnorr and Taproot.
+  <p>
 </zine-page>
 
 <zine-page class='left'>
