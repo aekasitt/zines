@@ -153,9 +153,9 @@
   <p class='text-center'>
     Activation date: November 2021
     <br />
-    Block height: 709,631.
+    Block height: 709,632.
   </p>
-    <table class='contents-centered'>
+  <table class='contents-centered'>
     <tr class='lean'>
       <td
         class='lean seamless'
@@ -256,4 +256,71 @@
   <page-num>
     4
   </page-num>
+  <p>
+    With Taproot, the only thing that needs to be public is the specific
+    way in which a coin was spent, not all other possibilities. This means:
+  </p>
+  <ol class='text-left' style='padding: 0 2cm;'>
+    <li>
+      less data on the blockchain, and
+    </li>
+    <li>
+      more privacy!
+    </li>
+  </ol>
+  <p class='text-squeezed'>
+    <strong>
+      Together, many features contribute to what is perhaps Taproot's most
+      impressive use case: making many different ways of spending <bitcoin></bitcoin>
+      indistinguishable from one another. It doesn't matter how simple or
+      complex the spending rules are.
+    </strong>
+  </p>
+  <table class='contents-centered'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-2%);'
+        >
+        ～～～～～～～～～～
+      </td>
+    </tr>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        style='font-size: .64cm; letter-spacing: -.24cm; line-height: .24cm; opacity: .4; transform: rotate(90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless text-center' style='font-size: .36cm;'>
+        <strong>
+          Taproot vs. SegWit
+        </strong>
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .64cm; letter-spacing: -.24cm; line-height: .24cm; opacity: .4; transform: rotate(-90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-2%);'
+        >
+        ～～～～～～～～～～
+      </td>
+    </tr>
+  </table>
+  <p>
+    SegWit is the major upgrade that came before Taproot.
+  </p>
+  <img
+    alt='SegWit and Taproot Timeline'
+    src='./static/segwit-taproot-timeline.svg'
+    style='position: absolute; left: 1.6cm; bottom: 1cm; width: 7.2cm;'
+    >
 </zine-page>
