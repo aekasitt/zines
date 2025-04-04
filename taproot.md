@@ -324,3 +324,70 @@
     style='position: absolute; left: 1.6cm; bottom: 1cm; width: 7.2cm;'
     >
 </zine-page>
+
+<zine-page class='right'>
+  <page-num>
+    5
+  </page-num>
+  It contains many things, including a new version
+  <br />
+  field to use with transaction output scripts
+  <hr />
+  <p class='text-center text-squeezed'>
+    For SegWit this value is set to "Ø" ("SegWit vØ").
+    For Taproot, it's set to "1". This is why you'll sometimes
+    see Taproot scripts referred to as "SegWit V1".
+  </p>
+  <hr />
+  SegWit and Taproot are separate upgrades that
+  <br />
+  result in different transaction output types.
+  <br />
+  Taproot builds on the foundation SegWit created.
+  </p>
+    <table class='contents-centered'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～
+      </td>
+    </tr>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        style='font-size: .64cm; letter-spacing: -.24cm; line-height: .24cm; opacity: .4; transform: rotate(-90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless text-center' style='font-size: .36cm;'>
+        The Taproot Upgrade was a Soft Fork
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .64cm; letter-spacing: -.24cm; line-height: .24cm; opacity: .4; transform: rotate(-90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～～
+      </td>
+    </tr>
+  </table>
+  <p class='text-squeezed'>
+    This means the upgrade narrows consensus rules, or constrains
+    the rules of the system. Soft forks require majority hashpower
+    from miners but the upgrade is optional for everyone else.
+    Any behavior that was invalid before continues to be invalid,
+    and nodes running older version of <bitcoin></bitcoin> continue
+    to be compatible with newer versions.
+  </p>
+</zine-page>
