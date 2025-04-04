@@ -45,6 +45,75 @@
   <page-num>
     6
   </page-num>
+<table class='contents-centered'>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～
+      </td>
+    </tr>
+    <tr style='margin: auto 0;'>
+      <td
+        class='lean seamless'
+        style='font-size: .64cm; letter-spacing: -.24cm; line-height: .24cm; opacity: .4; transform: rotate(-90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+      <td class='lean seamless text-center' style='font-size: .36cm;'>
+        The Taproot Upgrade has 3 parts
+      </td>
+      <td
+        class='lean seamless'
+        style='font-size: .64cm; letter-spacing: -.24cm; line-height: .24cm; opacity: .4; transform: rotate(-90deg) translate(-10%);'
+        >
+        〜〜〜
+      </td>
+    </tr>
+    <tr class='lean'>
+      <td
+        class='lean seamless'
+        colspan='3'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        >
+        ～～～～～～～～～～～～～～～～
+      </td>
+    </tr>
+  </table>
+  <ul class='text-left' style='padding: 0 2cm;'>
+    <li>
+      BIP-34Ø: Schnorr
+    </li>
+    <li>
+      BIP-341: MAST + Taproot
+    </li>
+    <li>
+      BIP-342: Tapscript
+    </li>
+  </ul>
+  <p class='text-center'>
+    When Taproot is discussed in a general sense,
+    including how we've talked about it so far, it
+    is usually in reference to all 3 of these things.
+  </p>
+  <p class='text-center'>
+    Let's take a closer to look at each!
+  </p>
+  <br />
+  <p>
+    <strong>
+      ☆ BIP-34Ø: Schnorr ☆
+    </strong>
+    <br />
+    This BIP introduces Schnorr, a new signature scheme.
+    <br />
+    <br />
+    Compared with ECDSA, the other signature scheme <bitcoin></bitcoin>
+    uses, Schnorr signatures are more secure, easier to work with,
+    and slightly more efficient.
+  </p>
 </zine-page>
 
 <zine-page class='right'>
@@ -345,7 +414,7 @@
   <br />
   Taproot builds on the foundation SegWit created.
   </p>
-    <table class='contents-centered'>
+  <table class='contents-centered'>
     <tr class='lean'>
       <td
         class='lean seamless'
