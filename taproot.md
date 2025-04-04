@@ -2,6 +2,29 @@
   <page-num>
     8
   </page-num>
+  <br />
+  <h2>
+    Thanks for reading!
+  </h2>
+  <p>
+    That was just a brief overview of Taproot. Hope you enjoted it!
+    Ready to learn more? Want to print free copies of this zine? Visit
+  </p>
+  <br /><br /><br /><br /><br />
+  <img
+    alt='Sorceress'
+    src='./static/sorceress.svg'
+    style='position: absolute; left: 2cm; top: 4.8cm; width: 6.4cm;'
+    >
+  <br /><br /><br /><br /><br />
+  <p class='text-center'>
+    <strong>
+      https://satsie.dev/zines
+    </strong>
+  </p>
+  <p class='text-center'>
+    for additional resources and more content like this!
+  </p>
 </zine-page>
 
 <zine-page class='right'>
