@@ -75,7 +75,7 @@
         〜〜〜
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
-        The Taproot Upgrade has 3 parts
+        แท็พรูทอัปเกรดมีส่วนประกอบ 3 ชิ้น
       </td>
       <td
         class='lean seamless'
@@ -96,27 +96,32 @@
   </table>
   <ul class='text-left' style='padding: 0 2cm;'>
     <li>
-      BIP-34Ø: Schnorr
+      BIP-34Ø: กลไกไขรหัสชนอร์
+      <span class='text-small'>
+        (Schnorr)
+      </span>
     </li>
     <li>
-      BIP-341: MAST + Taproot
+      BIP-341:
+      <span class='text-small'>
+        เมอร์เคิ่ลไลซ์แอ๊บแสตร็กท์ซินแทคส์ทรี (MAST)
+      </span>
+      + แท๊พรูท
     </li>
     <li>
-      BIP-342: Tapscript
+      BIP-342: แท๊พสคริปท์
     </li>
   </ul>
   <p class='text-center'>
-    When Taproot is discussed in a general sense,
-    including how we've talked about it so far, it
-    is usually in reference to all 3 of these things.
+    เมื่อมีการพูดถึงแท็พรูท ในบริบททั่วไป รวมถึงวิธีที่เราได้กล่าวถึงมัน
+    ณ ตอนนี้ โดยปกติแล้วมักจะหมายถึงทั้ง 3 สิ่งนี้โดยรวมกัน
   </p>
   <p class='text-center'>
-    Let's take a closer to look at each!
+    มาดูพวกมันอย่างใกล้ชิดกัน !!
   </p>
-  <br />
   <p>
     <strong>
-      ☆ BIP-34Ø: Schnorr ☆
+      ☆ BIP-34Ø: กลไกไขรหัสชนอร์ ☆
     </strong>
     <br />
     This BIP introduces Schnorr, a new signature scheme.
@@ -134,38 +139,38 @@
   </page-num>
   <p>
     <strong>
-      ☆ Batch signature validation ☆
+      ☆ การตรวจสอบลายเซ็นแบบจับกลุ่ม ☆
     </strong>
   </p>
-  <p>
-    Validating digital signatures usually requires a lot of efforts
-    from a computer's CPU. Now transaction signatures can be grouped
-    together and validated as one unit, instead of one by one.
+  <p class='text-left text-squeezed'>
+    การตรวจสอบลายเซ็นดิจิทัลโดยปกติจำเป็นต้องใช้การคำนวณซับซ้อนจากสมองกลคอมพิวเตอร์
+    ปัจจุบันเราสามารถจับกลุ่มลายเซ็นหลากหลาย ผ่านกระบวนการครวจสอบ
+    เป็นกลุ่มก้อนเดียวกันได้ แทนที่การตรวจสอบทีละรายการ
   </p>
   <img
     alt='Signature A'
-    src='./static/signature.svg'
-    style='position: absolute; left: 1cm; top: 4.6cm; width: 2.4cm;'
+    src='./static/signature.th.svg'
+    style='position: absolute; left: 1cm; top: 5.2cm; width: 2.4cm;'
     >
   <img
     alt='Signature B'
-    src='./static/signature.svg'
-    style='position: absolute; left: 1.6cm; top: 5.4cm; width: 2.4cm;'
+    src='./static/signature.th.svg'
+    style='position: absolute; left: 1.6cm; top: 6cm; width: 2.4cm;'
     >
   <img
     alt='Signature B'
-    src='./static/signature.svg'
-    style='position: absolute; left: 2.2cm; top: 6.2cm; width: 2.4cm;'
+    src='./static/signature.th.svg'
+    style='position: absolute; left: 2.2cm; top: 6.8cm; width: 2.4cm;'
     >
   <img
     alt='Arrow right'
     src='./static/arrow.svg'
-    style='position: absolute; left: 4.8cm; top: 5.4cm; transform: scaleX(-1) rotate(-90deg); width: 1cm;'
+    style='position: absolute; left: 4.8cm; top: 6cm; transform: scaleX(-1) rotate(-90deg); width: 1cm;'
     >
   <img
     alt='Musig'
-    src='./static/musig.svg'
-    style='position: absolute; right: 1cm; top: 4.6cm; width: 3cm;'
+    src='./static/musig.th.svg'
+    style='position: absolute; right: 1cm; top: 5.2cm; width: 3cm;'
     >
   <br />
   <br />
@@ -286,7 +291,7 @@
   </p>
   <img
     alt='Key A'
-    src='./static/old-key-a.svg'
+    src='./static/old-key-a.th.svg'
     style='position: absolute; left: .4cm; bottom: 2.6cm; width: 1.2cm;'
     >
   <img
@@ -296,7 +301,7 @@
     >
   <img
     alt='Key B'
-    src='./static/old-key-b.svg'
+    src='./static/old-key-b.th.svg'
     style='position: absolute; left: 2.8cm; bottom: 2.6cm; width: 1.2cm;'
     >
   <img
@@ -306,7 +311,7 @@
     >
   <img
     alt='Key C'
-    src='./static/old-key-c.svg'
+    src='./static/old-key-c.th.svg'
     style='position: absolute; left: 5.2cm; bottom: 2.6cm; width: 1.2cm;'
     >
   <img
@@ -316,7 +321,7 @@
     >
   <img
     alt='Key ABC'
-    src='./static/old-key-abc.svg'
+    src='./static/old-key-abc.th.svg'
     style='position: absolute; left: 7.6cm; bottom: 2.6cm; width: 1.72cm;'
     >
   <br />
@@ -382,10 +387,10 @@
   </p>
   <ol class='text-left' style='padding: 0 2cm;'>
     <li>
-      less data on the blockchain, and
+      ลดการเปลืองดาต้าบนบล็อก และ
     </li>
     <li>
-      more privacy!
+      ปกป้องสิทธิสันโดษมากกว่าเดิม
     </li>
   </ol>
   <p class='text-squeezed'>
@@ -415,7 +420,7 @@
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
         <strong>
-          Taproot vs. SegWit
+          แท็พรูทปะทะเส็กวิท
         </strong>
       </td>
       <td
@@ -436,11 +441,11 @@
     </tr>
   </table>
   <p>
-    SegWit is the major upgrade that came before Taproot.
+    เส็กวิท (SegWit) ก็คืออัปเกรดตัวบึ้มที่มาก่อนแท็พรูท (Taproot)
   </p>
   <img
     alt='SegWit and Taproot Timeline'
-    src='./static/segwit-taproot-timeline.svg'
+    src='./static/segwit-taproot-timeline.th.svg'
     style='position: absolute; left: 1.6cm; bottom: 1cm; width: 7.2cm;'
     >
 </zine-page>
