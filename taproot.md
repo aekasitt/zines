@@ -122,7 +122,7 @@
     is usually in reference to all 3 of these things.
   </p>
   <p class='text-center'>
-    Let's take a closer to look at each!
+    Let's take a closer look at each!
   </p>
   <br />
   <p>
