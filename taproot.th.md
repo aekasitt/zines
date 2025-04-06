@@ -42,7 +42,7 @@
   <br /><br /><br /><br /><br />
   <br /><br /><br /><br /><br />
   <br /><br /><br /><br /><br />
-  ><br />
+  <br />
   <h1 style='margin: 0 auto; padding: .4cm .4cm;'>
     แท็พรูท
   </h1>
