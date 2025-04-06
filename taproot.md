@@ -348,7 +348,7 @@
     </strong>
     <br />
     This BIP is made of 2 thigs:
-  <p>
+  </p>
   <ol class='text-left text-squeezed' style='padding: 0 1.6cm;'>
     <li>
       <strong>
@@ -380,7 +380,7 @@
     Script is the <s>terribly uncreative</s>
     name for <bitcoin></bitcoin>'s smart contract language. Tapscript is an
     upgraded scripting language that supports Schnorr and Taproot.
-  <p>
+  </p>
 </zine-page>
 
 <zine-page class='left'>
@@ -475,7 +475,6 @@
   result in different transaction output types.
   <br />
   Taproot builds on the foundation SegWit created.
-  </p>
   <table class='contents-centered'>
     <tr class='lean'>
       <td
