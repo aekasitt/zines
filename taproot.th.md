@@ -57,14 +57,14 @@
   <page-num>
     6
   </page-num>
-<table class='contents-centered'>
+  <table class='contents-centered'>
     <tr class='lean'>
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.2) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
@@ -88,9 +88,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.2) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
@@ -170,11 +170,7 @@
     src='./static/musig.th.svg'
     style='position: absolute; right: 1cm; top: 5.2cm; width: 3cm;'
     >
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+  <br /><br /><br /><br /><br />
   <p>
     <strong>
       ☆ Better privacy while spending ☆
@@ -198,9 +194,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.25) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
@@ -211,7 +207,7 @@
         〜〜〜
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
-        What is the Taproot Upgrade?
+        แท็พรูทอัปเกรดคืออะไรกันแน่ ?
       </td>
       <td
         class='lean seamless'
@@ -224,9 +220,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.25) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
@@ -244,9 +240,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.25) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
@@ -258,7 +254,7 @@
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
         <strong>
-          Taproot enables some cool features
+          แท็พรูทเปิดทางฟีเจอร์เชือดเฉือนฉ่ำ ๆ
         </strong>
       </td>
       <td
@@ -272,9 +268,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.25) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
@@ -322,8 +318,7 @@
     src='./static/old-key-abc.th.svg'
     style='position: absolute; left: 7.6cm; bottom: 2.6cm; width: 1.72cm;'
     >
-  <br />
-  <br />
+  <br /><br />
   <p class='text-squeezed'>
     This means complex multisignature spends can look like ones that only
     involves 1 key.
@@ -340,7 +335,7 @@
     </strong>
     <br />
     This BIP is made of 2 thigs:
-  <p>
+  </p>
   <ol class='text-left text-squeezed' style='padding: 0 1.6cm;'>
     <li>
       <strong>
@@ -372,7 +367,7 @@
     Script is the <s>terribly uncreative</s>
     name for <bitcoin></bitcoin>'s smart contract language. Tapscript is an
     upgraded scripting language that supports Schnorr and Taproot.
-  <p>
+  </p>
 </zine-page>
 
 <zine-page class='left'>
@@ -404,9 +399,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-2%);'
         >
-        ～～～～～～～～～～
+        ～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
@@ -432,9 +427,9 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-2%);'
         >
-        ～～～～～～～～～～
+        ～～～～～～～～～～～
       </td>
     </tr>
   </table>
@@ -452,30 +447,26 @@
   <page-num>
     5
   </page-num>
-  It contains many things, including a new version
-  <br />
-  field to use with transaction output scripts
+  มันประกอบไปด้วยหลายอย่าง รวมถึงค่าบ่งบอกเวอร์ชั่น
+  ที่ใช้คู่กับผลลัพธ์เอาทุพุทสคริปท์แต่ละธุรกรรม
   <hr />
   <p class='text-center text-squeezed'>
-    For SegWit this value is set to "Ø" ("SegWit vØ").
-    For Taproot, it's set to "1". This is why you'll sometimes
-    see Taproot scripts referred to as "SegWit V1".
+    สำหรับเส็กวิทแล้ว ค่าตัวนี้ถูกตั้งไว้เป็น "Ø" ("SegWit vØ").
+    สำหรับแท็พรูท ค่าบ่งบอกคือ "1". จึงเป็นเหตุผลที่บางครั้ง
+    เราเห็นชื่ออ้างอิง แท็พรูทสคริปท์ ว่า "SegWit V1".
   </p>
   <hr />
-  SegWit and Taproot are separate upgrades that
-  <br />
-  result in different transaction output types.
-  <br />
-  Taproot builds on the foundation SegWit created.
-  </p>
+  ทั้งเส็กวิทและแท็พรูท เป็นการอัปเกรดคนละตัวกันที่ส่งผลแตกต่าง
+  ให้กับผลลัพธ์เอาท์พุทรายธุรกรรมแยกประเภท แท็พรูทได้สร้างต่อยอด
+  บนรากฐานการพัฒนาที่เส็กวิทปูทางเอาไว้
   <table class='contents-centered'>
     <tr class='lean'>
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
@@ -486,7 +477,7 @@
         〜〜〜
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
-        The Taproot Upgrade was a Soft Fork
+        แท็พรูทอัปเกรดที่เกิดขึ้นมันคือซอฟท์ฟอร์ก
       </td>
       <td
         class='lean seamless'
@@ -499,18 +490,16 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: translate(-1.2%);'
         >
-        ～～～～～～～～～～～～～～～～～
+        ～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
-  <p class='text-squeezed'>
-    This means the upgrade narrows consensus rules, or constrains
-    the rules of the system. Soft forks require majority hashpower
-    from miners but the upgrade is optional for everyone else.
-    Any behavior that was invalid before continues to be invalid,
-    and nodes running older version of <bitcoin></bitcoin> continue
-    to be compatible with newer versions.
-  </p>
+  ดังนั้นแปลว่าการอัปเกรดที่กล่าวถึง ทำให้กฎฉันทามติ (consensus rules) กระชับยิ่งขึ้น
+  หรือบีบรัดกฎระเบียบภายในเครือข่ายกระจายศูนย์ให้ชัดเจน การผ่านซอฟท์ฟอร์กแต่ละครั้ง
+  จำเป็นต้องใช้แรงตอบรับ เป็นเสียงส่วนมากจากกลุ่มนักขุดเหมือง บิทคอยน์ไมเน่อร์
+  ในรูปแบบแฮชพาวเวอร์ (hashpower) แต่เป็นทางเลือกเสริมให้กับผู้ใช้ทั่วไป
+  พฤติกรรมวิสามัญก่อนหน้าการเปลี่ยนแปลง ยังคงเป็นโมฆะภายหลังไม่เปลี่ยนจากเดิม
+  และกลุ่มโหนดที่รันบิทคอยน์เวอร์ชั่นก่อน ๆ ยังสื่อสารกับโหนดเวอร์ชั่นใหม่ ๆ ได้ตามเคย
 </zine-page>
