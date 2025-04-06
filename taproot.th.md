@@ -173,7 +173,7 @@
   <br /><br /><br /><br /><br />
   <p>
     <strong>
-      ☆ สิทธิสันโดษที่ดีขึ้น ☆
+      ☆ สิทธิสันโดษที่แข็งแกร่งกว่าเดิม ☆
     </strong>
   </p>
   <p>
@@ -227,13 +227,13 @@
     </tr>
   </table>
   <p class='text-center'>
-    Taproot is a set of improvements that allow <bitcoin></bitcoin> to be used
-    in a more scalable and private ways.
+    แท็พรูทคือชุดการปรับปรุงที่ช่วยให้บิทคอยน์ สามารถถูกใช้งานได้อย่างมีประสิทธิภาพ
+    ในการขยับขยายสมรรถภาพเสกลลิ่งยิ่งกว่าเดิม และรักษาความเป็นส่วนตัวได้ดีขึ้น
   </p>
   <p class='text-center'>
-    Activation date: November 2021
+    วันที่เปิดใช้งาน: พฤศจิกายน 2021
     <br />
-    Block height: 709,632.
+    หมายเลขบล็อก: 709,632.
   </p>
   <table class='contents-centered'>
     <tr class='lean'>
@@ -276,12 +276,12 @@
   </table>
   <p class='text-center text-squeezed' style='padding: 0;'>
     <strong>
-      ☆ Key and signature aggregation (MuSig) ☆
+      ☆ การรวมกุญแจไขรหัสและลายเซ็นดิจิทัล (MuSig) ☆
     </strong>
   </p>
-  <p class='text-squeezed'>
-    If you have public keys A, B and C, they can be combined into one.
-    The same is true for the corresponding signatures. 
+  <p class='text-small'>
+    หากคุณมีกุญแจสาธารณะ (public key) ก, ข และ ค พวกมันสามารถ
+    ถูกใช้รวมกันเป็นกุญแจเดียวได้ สิ่งเดียวกันนี้ใช้กับลายเซ็นดิจิทัลที่สอดคล้องกันด้วย
   </p>
   <img
     alt='Key A'
@@ -319,9 +319,9 @@
     style='position: absolute; left: 7.6cm; bottom: 2.6cm; width: 1.72cm;'
     >
   <br /><br />
-  <p class='text-squeezed'>
-    This means complex multisignature spends can look like ones that only
-    involves 1 key.
+  <p class='text-small'>
+    นี่หมายความว่าการใช้จ่ายแบบหลายลายเซ็นที่ซับซ้อ สามารถพรางตาเหมือนกับการใช้จ่าย
+    ที่เกี่ยวข้องกับเพียงกุญแจเดียวเท่านั้น
   </p>
 </zine-page>
 
