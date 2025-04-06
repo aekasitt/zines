@@ -380,8 +380,8 @@
     4
   </page-num>
   <p>
-    With Taproot, the only thing that needs to be public is the specific
-    way in which a coin was spent, not all other possibilities. This means:
+    ด้วย Taproot สิ่งเดียวที่จำเป็นต้องเปิดเผยต่อสาธารณะ คือวิธีเฉพาะที่เหรียญถูกใช้ไป
+    ไม่ใช่ความเป็นไปได้อื่น ๆ ทั้งหมด ซึ่งหมายความว่า:
   </p>
   <ol class='text-left' style='padding: 0 2cm;'>
     <li>
@@ -393,10 +393,10 @@
   </ol>
   <p class='text-squeezed'>
     <strong>
-      Together, many features contribute to what is perhaps Taproot's most
-      impressive use case: making many different ways of spending <bitcoin></bitcoin>
-      indistinguishable from one another. It doesn't matter how simple or
-      complex the spending rules are.
+      ด้วยหลาย ๆ ปัจจัยรวมกัน ทำให้เราเห็นความเด่นชัด และกรณีการใช้งานน่าประทับใจที่สุด ของแท็พรูท
+      ซี่งก็คือการสร้างธุรกรรมอย่างมากความสามารถกว่าเดิม ที่มีรูปลักษณะไม่ต่างจากธุรกรรมสามัญทั่วไป
+      ไม่สำคัญว่าเรากำลังสร้างะุรกรรมเรียบง่ายสมถะ หรือมากสมรรถภาพเชิงเทคนิคซับซ้อนแนบข้อกำหนดใช้งาน
+      ก็ยังดูเหมือนเดิม
     </strong>
   </p>
   <table class='contents-centered'>
@@ -444,7 +444,7 @@
   <img
     alt='SegWit and Taproot Timeline'
     src='./static/segwit-taproot-timeline.th.svg'
-    style='position: absolute; left: 1.6cm; bottom: 1cm; width: 7.2cm;'
+    style='position: absolute; left: 1.6cm; bottom: .6cm; width: 7.2cm;'
     >
 </zine-page>
 
