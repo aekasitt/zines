@@ -62,7 +62,7 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.2) translate(-1.2%);'
         >
         ～～～～～～～～～～～～～～～～
       </td>
@@ -75,7 +75,7 @@
         〜〜〜
       </td>
       <td class='lean seamless text-center' style='font-size: .36cm;'>
-        แท็พรูทอัปเกรดมีส่วนประกอบ 3 ชิ้น
+        แท็พรูทอัปเกรดมีองค์ประกอบ 3 ชิ้นส่วน
       </td>
       <td
         class='lean seamless'
@@ -88,7 +88,7 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.12) translate(-1.2%);'
+        style='font-size: .64cm; letter-spacing: -.24cm; opacity: .4; transform: scale(1.2) translate(-1.2%);'
         >
         ～～～～～～～～～～～～～～～～
       </td>
@@ -97,16 +97,13 @@
   <ul class='text-left' style='padding: 0 2cm;'>
     <li>
       BIP-34Ø: กลไกไขรหัสชนอร์
-      <span class='text-small'>
-        (Schnorr)
-      </span>
     </li>
     <li>
       BIP-341:
       <span class='text-small'>
-        เมอร์เคิ่ลไลซ์แอ๊บแสตร็กท์ซินแทคส์ทรี (MAST)
+        เมอร์เคิ่ลไลซ์แอ๊บแสตร็กท์ซินแทคส์ทรี
       </span>
-      + แท๊พรูท
+      (MAST) + แท๊พรูท
     </li>
     <li>
       BIP-342: แท๊พสคริปท์
@@ -124,12 +121,13 @@
       ☆ BIP-34Ø: กลไกไขรหัสชนอร์ ☆
     </strong>
     <br />
-    This BIP introduces Schnorr, a new signature scheme.
-    <br />
-    <br />
-    Compared with ECDSA, the other signature scheme <bitcoin></bitcoin>
-    uses, Schnorr signatures are more secure, easier to work with,
-    and slightly more efficient.
+    บิทคอยน์อิมพรูฟเมนท์โพรโพซอล (BIP) ตัวนี้เป็นการเปิดตัว
+    กลไกไขรหัสที่ชื่อว่าชนอร์ เสริมโครงร่างลายเซ็นตัวใหม่ให้กับระบบ
+  </p>
+  <p class='text-squeezed'>
+    เมื่อเปรียบเทียบกับโครงร่างลายเซ็นตัวก่อนที่ถูกใช้ภายในเครือข่ายบิทคอยน์
+    ที่เรียกกันว่า อีซีดีเอสเอ (ECDSA) แล้ว กลไกไขรหัสชนอร์มอบโครงร่างที่ปลอดภัยกว่า
+    ใช้งานง่าย และมีประสิทธิภาพสูงกว่าเล็กน้อยให้กับผู้ใช้
   </p>
 </zine-page>
 
