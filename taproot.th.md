@@ -331,42 +331,47 @@
   </page-num>
   <p class='text-squeezed'>
     <strong>
-      ☆ BIP-341: Script Trees + Taproot ☆
+      ☆ BIP-341: สคริปท์แตกกิ่ง + แท็พรูท ☆
     </strong>
     <br />
-    This BIP is made of 2 thigs:
+    บิ๊พตัวนี้สามารถแตกแขนงได้เป็น 2 ปัจจัย:
   </p>
-  <ol class='text-left text-squeezed' style='padding: 0 1.6cm;'>
-    <li>
+  <ol class='text-left text-small' style='padding: 0 1.4cm;'>
+    <li class='text-squeezed'>
       <strong>
-        Script trees:
+         สคริปท์แตกกิ่ง:
       </strong>
-      Tree-like data structures used to compactly encode multiple scripts.
-      In this BIP, each leaf represents a single script and only one leaf
-      may be chosen by the spender. The spender is responsible for showing
-      the path of the leaf (AKA the "Merkle branch").
+      การจับกลุ่มและเข้ารหัสรวบของโครงร่างข้อมูลดาต้า (data-structures) เป็นเหมือนต้นไม้
+      เพื่อย่อขนาดตรรกะของหลาย ๆ สคริปท์ ในบิทคอยน์อิมพรูฟเมนท์โพรโพซอลตัวนี้ แต่ละกิ่งไม้
+      ของต้นไม้ดังกล่าว เป็นเหมือนตรรกะที่ได้จากสคริปท์เดี่ยว และผู้ใช้จ่ายสามารถเลือกผลลัพธ์
+      ปลายทางได้แค่ทางเดียว ผู้ใช้รับผิดชอบในการแสดงผลของช่องทางตรรกะกิ่งที่เลือก
+      (เราเรียกมันว่า "กิ่งเมอร์เคิ่ล (Merkle branch)")
     </li>
     <li>
       <strong>
-        Taproot:
+        แท็พรูท:
       </strong>
-      A technique that allows a coin to be spent by public key OR by script.
-      Taproot leverages the power of MAST and Schnorr to make transactions more
+      ทักษะที่ทำให้เราสามารถใช้จ่ายเหรียญด้วยกุญแจไขรหัสเปิดเผย (public key)
       <strong>
-        flexible, private and efficient.
+        หรือ
       </strong>
-      With Taproot, you can set up many different spending constraints, but only
-      reveal the one that is used!
+      จากผลลัพธ์เอาท์พุทที่ได้มาจากสคริปท์ แท็พรูทช่วยทุ่นแรงจากสมรรถภาพของเมอร์เคิ่ลไลซ์แอ๊บแสครกท์
+      ซินแทคส์ทรี (MAST) และกลไกไขรหัสชนอร์ให้เราสร้างธุรกรรมได้อย่าง
+      <strong>
+        ยืดหยุ่น, ลับตา และคล่องประสิทธิภาพ
+      </strong>
+      ด้วยแท็พรูท คุณเองก็สามารถตั้งกฎเกณฑ์ควบคุมรายจ่ายนานา แล้วค่อยเผยแพร่เฉพาะทางที่ใช้เวลาชำระได้
     </li>
   </ol>
   <p class='text-squeezed'>
     <strong>
-      ☆ BIP-342: Tapscript ☆
+      ☆ BIP-342: แท็พสคริปท์ ☆
     </strong>
     <br />
-    Script is the <s>terribly uncreative</s>
-    name for <bitcoin></bitcoin>'s smart contract language. Tapscript is an
-    upgraded scripting language that supports Schnorr and Taproot.
+    สคริปท์ก็คือ <s>ชื่อตั้งไร้จินตนาการ</s>
+    ชื่อสำหรับภาษาเขียนตรรกะอัจฉริยะ (smart contract) บนเครือข่ายกระจายศูนย์บิทคอยน์
+    แท็พสคริปท์เป็นเหมือนภาษาที่วิวัฒนาการมาต่อเนื่องจากเดิม และรองรับการใช้งาน
+    กลไกไขรหัสชนอร์บวกกับแท็พรูท
   </p>
 </zine-page>
 
