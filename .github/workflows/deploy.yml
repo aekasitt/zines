@@ -84,6 +84,11 @@ jobs:
           pdftoppm -jpeg -r 300 taproot.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/taproot.th.7
           pdftoppm -jpeg -r 300 taproot.th.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/taproot.th.4
           pdftoppm -jpeg -r 300 taproot.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/taproot.th.5
+      - name: Copy static assets used on booklet application
+        run: |
+          cp static/acrobat.svg dist/acrobat.svg
+          cp static/graffiti.svg dist/graffiti.svg
+          cp static/sir.svg dist/sir.svg
       - name: Upload production-ready build files
         uses: actions/upload-pages-artifact@v3
         with:

@@ -29,37 +29,133 @@
         transform: translate(0, 30px);
         width: 90vw !important;
       }
-    .navbar {
-      align-items: center;
-      display: flex;
-      flex-wrap: wrap;
-      height: 36px;
-      gap: 12px;
-      justify-content: center;
-      padding: 12px 0;
-      width: 100%;
-    }
-    .navbar > button {
-      align-items: center;
-      color: #999;
-      display: flex;
-      font-size: 24px;
-      gap: 4px;
-      height: 36px;
-    }
-    @media only screen and (max-width: 600px) {
-      .flipbook .viewport {
-        height: calc(80vh - 80px - 0px) !important;
-      }
       .navbar {
-        padding-bottom: 48px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: 36px;
+        gap: 12px;
+        justify-content: center;
+        padding: 12px 0;
+        width: 100%;
       }
-    }
-    @media only screen and (max-width: 300px) {
-      .navbar {
-        padding-bottom: 108px;
+
+      .navbar > button,
+      .navbar > select > button {
+        align-items: center;
+        display: flex;
+        font-size: 24px;
+        gap: 4px;
+        height: 2rem;
+        vertical-align: middle;
       }
-    }
+
+      select,
+      ::picker(select) {
+        appearance: base-select;
+        font: -webkit-small-control;
+      }
+
+      option::checkmark {
+        display: none;
+      }
+
+      select {
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem 0.75rem;
+        transition-duration: 0.25s;
+      }
+
+      option {
+        align-items: center;
+        display: flex;
+        font-size: 1rem;
+        gap: 0.5rem;
+        grid-template-columns: 2rem auto;
+        padding: 0.5rem 1rem;
+        place-items: initial;
+        transition-duration: 0.25s;
+      }
+
+      option > img {
+        height: 24px;
+        vertical-align: text-bottom;
+        width: 24px;
+      }
+
+      option:hover,
+      option:focus-visible {
+        background: #eaeaea;
+      }
+
+      select::picker-icon{
+        display: none;
+      }
+
+      selectedcontent .text {
+        display: none;
+      }
+
+      selectedcontent > img {
+        height: 36px;
+        vertical-align: text-bottom;
+        width: 36px;
+      }
+
+      .icon {
+        border-left: 0.3rem solid transparent;
+        border-right: 0.3rem solid transparent;
+        border-top: 0.3rem solid;
+      }
+
+      ::picker(select) {
+        border: none;
+        padding: 0.5rem 0;
+        overflow-x: hidden;
+        border-radius: 5px;
+        width: 3.5rem;
+        transition: width 0.5s;
+        min-inline-size: 0;
+        box-shadow: 0px 12.8px 28.8px rgba(0, 0, 0, 0.13), 0px 0px 9.2px rgba(0, 0, 0, 0.11);
+      }
+
+      select:has(:popover-open) button {
+        background: lightgray;
+      }
+
+      ::picker(select):hover,
+      select:has(option:focus-visible)::picker(select) {
+        width: calc-size(auto, size + 0.5rem);
+      }
+
+      @media only screen and (pointer:coarse) {
+        ::picker(select) {
+          min-inline-size: 36%;
+        }
+      }
+
+      @media only screen and (max-width: 1000px) and (pointer: coarse) {
+        ::picker(select) {
+          min-inline-size: 72%;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .flipbook .viewport {
+          height: calc(80vh - 80px - 0px) !important;
+        }
+        .navbar {
+          padding-bottom: 48px;
+        }
+      }
+
+      @media only screen and (max-width: 300px) {
+        .navbar {
+          padding-bottom: 108px;
+        }
+      }
     </style>
     <title>
       Zines
@@ -71,27 +167,68 @@
     </noscript>
     <div id='app'>
       <div class='navbar'>
-        <button @click.preventDefault="zine = 'bips'">
-          BIPS
-        </button>
-        <button @click.preventDefault="zine = 'bips.th'">
-          BIPS 🇹🇭
-        </button>
-        <button @click.preventDefault="zine = 'bips.esp'">
-          BIPS 🇪🇸
-        </button>
-        <button @click.preventDefault="zine = 'payjoin'">
-          Payjoin
-        </button>
-        <button @click.preventDefault="zine = 'payjoin.th'">
-          Payjoin 🇹🇭
-        </button>
-        <button @click.preventDefault="zine = 'taproot'">
-          Taproot
-        </button>
-        <button @click.preventDefault="zine = 'taproot.th'">
-          Taproot 🇹🇭
-        </button>
+        <select @change.preventDefault='zine = $event.target.value'>
+          <button>
+            <selectedcontent></selectedcontent>
+            <span class='icon'></span>
+          </button>
+          <option value='bips'>
+            <img alt='Here Comes Bitcoin - Acrobat' src='acrobat.svg'>
+            🇬🇧
+            &nbsp;
+            <span class='text'>
+              All about BIPs
+            </span>
+          </option>
+          <option value='bips.esp'>
+            <img alt='Here Comes Bitcoin - Acrobat' src='acrobat.svg'>
+            🇪🇸
+            &nbsp;
+            <span class='text'>
+              Todo sobre BIPs
+            </span>
+          </option>
+          <option value='bips.th'>
+            <img alt='Here Comes Bitcoin - Acrobat' src='acrobat.svg'>
+            🇹🇭
+            &nbsp;
+            <span class='text'>
+              สิ่งเล็ก ๆ ที่เรียกว่าบิพส์
+            </span>
+          </option>
+          <option value='payjoin'>
+            <img alt='Here Comes Bitcoin - Graffiti' src='graffiti.svg'>
+            🇬🇧
+            &nbsp;
+            <span class='text'>
+              Payjoin
+            </span>
+          </option>
+          <option value='payjoin.th'>
+            <img alt='Here Comes Bitcoin - Graffiti' src='graffiti.svg'>
+            🇹🇭
+            &nbsp;
+            <span class='text'>
+              เพย์จอยน์
+            </span>
+          </option>
+          <option value='taproot'>
+            <img alt='Here Comes Bitcoin - Sir' src='sir.svg'>
+            🇬🇧
+            &nbsp;
+            <span class='text'>
+              Taproot
+            </span>
+          </option>
+          <option value='taproot.th'>
+            <img alt='Here Comes Bitcoin - Sir' src='sir.svg'>
+            🇹🇭
+            &nbsp;
+            <span class='text'>
+              แท็พรูท
+            </span>
+          </option>
+        </select>
         <button
           onclick="location.href = 'https://github.com/aekasitt/zines'"
           >
