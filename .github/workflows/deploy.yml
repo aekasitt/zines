@@ -87,6 +87,7 @@ jobs:
       - name: Copy static assets used on booklet application
         run: |
           cp static/acrobat.svg dist/acrobat.svg
+          cp static/github.svg dist/github.svg
           cp static/graffiti.svg dist/graffiti.svg
           cp static/sir.svg dist/sir.svg
       - name: Upload production-ready build files
