@@ -52,6 +52,22 @@
               สิ่งเล็ก ๆ ที่เรียกว่าบิพส์
             </span>
           </option>
+          <option value='bitvm'>
+            <img alt='Here Comes Bitcoin - Bthulu' src='bthulu.svg'>
+            🇬🇧
+            &nbsp;
+            <span class='text'>
+              BitVM
+            </span>
+          </option>
+          <option value='bitvm.th'>
+            <img alt='Here Comes Bitcoin - Bthulu' src='bthulu.svg'>
+            🇹🇭
+            &nbsp;
+            <span class='text'>
+              บิทวีเอ็ม
+            </span>
+          </option>
           <option value='payjoin'>
             <img alt='Here Comes Bitcoin - Graffiti' src='graffiti.svg'>
             🇬🇧
@@ -111,7 +127,14 @@
       window.onload = () => {
         const hash = window.location.hash ? window.location.hash.slice(1) : ''
         const zine = [
-          'bips', 'bips.esp', 'bips.th', 'payjoin', 'payjoin.th', 'taproot', 'taproot.th'
+          'bips',
+          'bips.esp',
+          'bips.th',
+          'bitvm.th',
+          'payjoin',
+          'payjoin.th',
+          'taproot',
+          'taproot.th'
         ].includes(hash) ? hash : 'bips'
         new Vue({ data: { zine }, el: '#app' })
         document.querySelector('#zineSelector').value = zine

@@ -44,6 +44,26 @@ jobs:
           pdftoppm -jpeg -r 300 bips.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bips.th.7
           pdftoppm -jpeg -r 300 bips.th.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bips.th.4
           pdftoppm -jpeg -r 300 bips.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bips.th.5
+      - name: Unbind 'BitVM' booklet into image pages
+        run: |
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bitvm.8
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bitvm.1
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bitvm.6
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bitvm.3
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bitvm.2
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bitvm.7
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bitvm.4
+          pdftoppm -jpeg -r 300 bitvm.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bitvm.5
+      - name: Unbind 'BitVM' booklet Thai ver. into image pages
+        run: |
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bitvm.th.8
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bitvm.th.1
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bitvm.th.6
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bitvm.th.3
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/bitvm.th.2
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/bitvm.th.7
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/bitvm.th.4
+          pdftoppm -jpeg -r 300 bitvm.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/bitvm.th.5
       - name: Unbind 'Payjoin' booklet into image pages
         run: |
           pdftoppm -jpeg -r 300 payjoin.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/payjoin.8
@@ -87,6 +107,7 @@ jobs:
       - name: Copy static assets used on booklet application
         run: |
           cp static/acrobat.svg dist/acrobat.svg
+          cp static/bthulu.svg dist/bthulu.svg
           cp static/github.svg dist/github.svg
           cp static/graffiti.svg dist/graffiti.svg
           cp static/sir.svg dist/sir.svg
