@@ -1,10 +1,13 @@
 <zine-page class='left'>
   <page-num>
-    8
+    หน้า ๘ (8)
   </page-num>
 </zine-page>
 
 <zine-page class='right'>
+  <page-num>
+    หน้า ๑ (1)
+  </page-num>
   <img
     alt="Satsie's Pocket Guide"
     src='./static/sitts-guide-bitvm.th.svg'
@@ -43,30 +46,36 @@
 
 <zine-page class='left'>
   <page-num>
-    6
+    หน้า ๖ (6)
   </page-num>
 </zine-page>
 
 <zine-page class='left'>
   <page-num>
-    2
-  </page-num>
-</zine-page>
-
-<zine-page class='right'>
-  <page-num>
-    7
+    หน้า ๓ (3)
   </page-num>
 </zine-page>
 
 <zine-page class='left'>
   <page-num>
-    4
+    หน้า ๒ (2)
   </page-num>
 </zine-page>
 
 <zine-page class='right'>
   <page-num>
-    5
+    หน้า ๗ (7)
+  </page-num>
+</zine-page>
+
+<zine-page class='left'>
+  <page-num>
+    หน้า ๔ (4)
+  </page-num>
+</zine-page>
+
+<zine-page class='right'>
+  <page-num>
+    หน้า ๕ (5)
   </page-num>
 </zine-page>

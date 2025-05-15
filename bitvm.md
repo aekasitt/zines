@@ -49,6 +49,12 @@
 
 <zine-page class='left'>
   <page-num>
+    3
+  </page-num>
+</zine-page>
+
+<zine-page class='left'>
+  <page-num>
     2
   </page-num>
 </zine-page>
