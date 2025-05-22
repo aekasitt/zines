@@ -11,7 +11,7 @@
     style='position: absolute; left: 0cm; top: .8cm; height: 4cm;'
     >
   <img
-    alt='Sir'
+    alt='Bthulu'
     src='./static/bthulu.svg'
     style='position: absolute; left: 1.4cm; top: 4.2cm; height: 7.2cm;'
     >
@@ -183,6 +183,103 @@
   <page-num>
     4
   </page-num>
+  <h3 style='padding-bottom: 0; margin-bottom: 0;'>
+    Why talk about Covenants when discussing BitVM ?
+  </h3>
+  <p class='text-center'>
+    Because <bitcoin></bitcoin> is the only decentralized verifier in the world.
+    The network verifies proofs, signatures and transactions without prejudice.
+  </p>
+  <p class='text-small' style='margin: 0 .8cm;'>
+    Design decisions under <bitcoin></bitcoin>, including Turing-incompleteness
+    within scripting language, allow every node to verify scripts efficiently
+    within the 1,000 stack elements and 201 opcodes trustlessly.
+  </p>
+  <p class='text-center text-squeezed'>
+    Both Covenants and BitVM challenge this limit, but BitVM does it
+    without requiring changes to the <bitcoin></bitcoin> protocol, (not yet),
+    but with a paradigm shift.
+  </p>
+  <h4>
+    What can Bitcoiners do now, that they cannot before?
+  </h4>
+  <img
+    alt='Bristol Circuit'
+    src='./static/bristol-circuit.svg'
+    style='position: absolute; bottom: .8cm; left: .4cm; height: 2cm;'
+    >
+  <img
+    alt='Shielded Client-side Validation'
+    src='./static/shielded-csv.svg'
+    style='position: absolute; bottom: 1.2cm; left: 2cm; height: 2cm;'
+    >
+  <img
+    alt='Proof System'
+    src='./static/proof-system.svg'
+    style='position: absolute; bottom: .6cm; left: 3cm; height: 2cm;'
+    >
+  <img
+    alt='Arbitrary Computation'
+    src='./static/arbitrary-computation.svg'
+    style='position: absolute; bottom: 1cm; left: 4.2cm; height: 2cm;'
+    >
+  <img
+    alt='Covenant Lite'
+    src='./static/covenant-lite.svg'
+    style='position: absolute; bottom: .6cm; left: 5.6cm; height: 2cm;'
+    >
+  <img
+    alt='Bridge'
+    src='./static/side-chain.svg'
+    style='position: absolute; bottom: 1cm; left: 7.4cm; height: 2cm;'
+    >
+  <p
+    class='text-center text-small'
+    style='bottom: 2.2cm; left: .4cm; line-height: 1; position: absolute;'>
+    Bristol
+    <br/>
+    Circuit
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: .2cm; left: 1.4cm; line-height: 1; position: absolute;'
+    >
+    Shielded
+    <br/>
+    CSV
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 2.2cm; left: 2.6cm; line-height: 1; position: absolute;'
+    >
+    Proof
+    <br/>
+    Systems
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: .2cm; left: 3.8cm; line-height: 1; position: absolute;'
+    >
+    Compute
+    <br/>
+    Anything
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 2.2cm; left: 5.2cm; line-height: 1; position: absolute;'
+    >
+    Covenant
+    <br/>
+    Lite
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: .2cm; left: 7cm; line-height: 1; position: absolute;'
+    >
+    Side
+    <br/>
+    Layers
+  </p>
 </zine-page>
 
 <zine-page class='right'>
