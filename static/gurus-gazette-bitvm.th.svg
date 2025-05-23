@@ -40,7 +40,7 @@
   </defs>
   <text id='title'
     font-size='1cm'
-    x='20'
+    x='15'
     y='80'>
     <textPath href='#arc'>
       วารสารสังเขปกูรู้กาเซ็ตต์นำเสนอ
@@ -52,7 +52,7 @@
     x='160'
     y='100'>
     <textPath href='#arc-inverted'>
-      ว่าสั้นได้ใจความ
+      เวลามีค่าศึกษาบิทคอยน์
     </textPath>
   </text>
   <text
