@@ -40,10 +40,10 @@
   </defs>
   <text id='title'
     font-size='1cm'
-    x='40'
+    x='20'
     y='80'>
     <textPath href='#arc'>
-      วารสารสาระสังเขปของสิทธิ์
+      วารสารสังเขปกูรู้กาเซ็ตต์นำเสนอ
     </textPath>
   </text>
   <text id='subtitle'
