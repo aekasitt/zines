@@ -41,10 +41,10 @@
   <text id='title'
     font-size='1cm'
     letter-spacing='-.1cm'
-    x='40'
+    x='64'
     y='80'>
     <textPath href='#arc'>
-      Guruvanich Gazette
+      Guru's Gazette
     </textPath>
   </text>
   <text id='subtitle'

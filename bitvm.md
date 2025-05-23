@@ -7,7 +7,7 @@
 <zine-page class='right'>
   <img
     alt="Satsie's Pocket Guide"
-    src='./static/sitts-guide-bitvm.svg'
+    src='./static/gurus-gazette-bitvm.svg'
     style='position: absolute; left: 0cm; top: .8cm; height: 4cm;'
     >
   <img
@@ -235,7 +235,7 @@
     >
   <img
     alt='Bridge'
-    src='./static/side-chain.svg'
+    src='./static/sidechain-bridge.svg'
     style='position: absolute; bottom: 1cm; left: 7.4cm; height: 2cm;'
     >
   <p
