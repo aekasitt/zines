@@ -115,7 +115,7 @@
   <img
     alt='Byzantine Generals forming Covenant'
     src='./static/byzantine-generals.svg'
-    style='position: absolute; left: 2.4cm; top: 5.6cm; width: 4.8cm;'
+    style='position: absolute; left: 2.8cm; top: 5.6cm; width: 4.8cm;'
     >
   <br />
   <br />
