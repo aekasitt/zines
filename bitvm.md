@@ -182,6 +182,18 @@
   <page-num>
     7
   </page-num>
+  <h3>
+    Why are Rollups being discussed on <bitcoin></bitcoin> again?
+  </h3>
+  <p class='text-center'>
+    Better than allowing bloatwares on the mainchain, BitVM clears the path for
+    some important works in the cypherpunk world to emerge on <bitcoin></bitcoin>
+    discussions.
+  </p>
+  <p class='text-justify text-sqeezed'>
+    Independent teams rush to create Zero-Knowledge Proof Verifier on Bitcoin script
+    and Tapscript again with the workaround presented by BitVM research.
+  </p>
 </zine-page>
 
 <zine-page class='left'>
@@ -291,4 +303,41 @@
   <page-num>
     5
   </page-num>
+  <h2 style='margin-bottom: 0; padding-bottom: 0;'>
+    Let's look at User-friendly Upgrades !!
+  </h2>
+  <img
+    alt='Shielded Client-side Validation'
+    src='./static/shielded-csv.svg'
+    style='position: absolute; top: 1cm; left: 0; height: 4cm;'
+    >
+  <h4 style='margin-bottom: 0; margin-left: 1.8cm;'>
+    Shielded Client-Side Validation
+  </h4>
+  <p class='text-justify text-squeezed' style='margin-bottom: 0; margin-left: 1.8cm;'>
+    Transaction history is rich source of information to link transactions
+  </p>
+  <p style='margin-top: 0; padding-top: 0;'>
+    and de-anonymizing users. Client-Side validation protocols, where the coin proof
+    reveals the transaction history of the coin, offer certain privacy advantages over
+    transparent blockchain transactions. Senders broadcast nullifiers to Receivers
+    which contain full history of the coin.
+  </p>
+  <p class='text-left'>
+    <strong>
+    Known CSV Model Protocols
+    </strong>
+  </p>
+  <ul class='text-left'>
+    <li>
+      RGB Protocol
+    </li>
+    <li>
+      Lightning Labs' Taproot Assets
+    </li>
+  </ul>
+  <p class='text-center'>
+    With Shielded CSV on BitVM paradigm, nullifier footprints can be limited to 64-byte size
+    and contain only validity proof without de-anonymyzing data.
+  </p>
 </zine-page>
