@@ -47,7 +47,7 @@
   </page-num>
 </zine-page>
 
-<zine-page class='left'>
+<zine-page class='right'>
   <page-num>
     3
   </page-num>
@@ -74,19 +74,19 @@
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .56cm; font-weight: bold; opacity: .4;'
-        >
-        〰〰〰〰〰〰〰〰〰〰〰〰
+        style='
+          font-size: .48cm; letter-spacing: -.18cm; opacity: .6; transform: translate(-1%, 50%);
+        '>
+        ～～～～～～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
     <tr style='margin: auto 0;'>
       <td
         class='lean seamless'
         style='
-          font-size: .8cm; opacity: .6; transform: rotate(90deg) scale(1.2); white-space: nowrap;
-        '
-        >
-        〰〰〰〰
+          font-size: .84cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(90deg) translate(-8%); white-space: nowrap;
+        '>
+        ～～～～～
       </td>
       <td class='lean seamless text-center text-small text-squeezed'>
         Covenants are a category of proposed changes to <bitcoin></bitcoin>'s
@@ -96,26 +96,26 @@
       <td
         class='lean seamless'
         style='
-          font-size: .8cm; opacity: .6; transform: rotate(-90deg) scale(1.2); white-space: nowrap;
-        '
-        >
-        〰〰〰〰
+          font-size: .84cm; letter-spacing: -.32cm; opacity: .4; transform: rotate(-90deg) translate(-8%); white-space: nowrap;
+        '>
+        ～～～～～
       </td>
     </tr>
     <tr class='lean'>
       <td
         class='lean seamless'
         colspan='3'
-        style='font-size: .56cm; font-weight: bold; opacity: .4;'
-        >
-        〰〰〰〰〰〰〰〰〰〰〰〰
+        style='
+          font-size: .48cm; letter-spacing: -.18cm; opacity: .6; transform: translate(-1%, -50%);
+        '>
+        ～～～～～～～～～～～～～～～～～～～～～～～～～
       </td>
     </tr>
   </table>
   <img
     alt='Byzantine Generals forming Covenant'
     src='./static/byzantine-generals.svg'
-    style='position: absolute; left: 2.8cm; top: 6.4cm; width: 4.4cm;'
+    style='position: absolute; left: 2.4cm; top: 5.6cm; width: 4.8cm;'
     >
   <br />
   <br />
@@ -126,8 +126,13 @@
   <br />
   <br />
   <p class='text-center'>
-    We do not yet have Covenants on <bitcoin></bitcoin>.
-    But we can emulate it.
+    We do not yet have Covenants on <bitcoin></bitcoin>,
+    but we can emulate it.
+  </p>
+  <p class='text-small'>
+    Covenant emulation in BitVM2 is a workaround that uses a signer
+    committee to mimic advanced spending conditions not natively supported
+    by <bitcoin></bitcoin>, introducing a small trust assumption.
   </p>
 </zine-page>
 
