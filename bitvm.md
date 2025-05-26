@@ -182,6 +182,44 @@
   <page-num>
     7
   </page-num>
+  <h4>
+    Rate of Innovations
+  </h4>
+  <table class='text-small' style='border: 0; margin: 0 auto;'>
+    <thead style='border: 0;'>
+      <tr style='border: 0;'>
+        <th style='border: 0;'>PROTOCOL</th>
+        <th style='border: 0;'>PREPROCESSING</th>
+        <th style='border: 0;'>STORAGE</th>
+        <th style='border: 0;'>ROUNDS</th>
+      </tr>
+    </thead>
+    <tbody style='border: 0;'>
+      <tr style='border: 0;'>
+        <td colspan='4' style='border: 0;'>
+          〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+        </td>
+      </tr>
+      <tr style='border: 0;'>
+        <td style='border: 0;'>BitVM (gate-based)</td>
+        <td style='border: 0;'>Weeks</td>
+        <td style='border: 0;'>Terabytes</td>
+        <td style='border: 0;'>~ 50</td>
+      </tr>
+      <tr style='border: 0;'>
+        <td style='border: 0;'>BitVM</td>
+        <td style='border: 0;'>Days</td>
+        <td style='border: 0;'>Gigabytes</td>
+        <td style='border: 0;'>~ 38</td>
+      </tr>
+      <tr style='border: 0;'>
+        <td style='border: 0;'>BitVM2</td>
+        <td style='border: 0;'>Minutes</td>
+        <td style='border: 0;'>Megabytes</td>
+        <td style='border: 0;'>1</td>
+      </tr>
+    </tbody>
+  </table>
   <h3>
     Why are Rollups being discussed on <bitcoin></bitcoin> again?
   </h3>
