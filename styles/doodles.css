@@ -68,3 +68,21 @@ splash-left::before {
 .background-mirrored::before {
   transform: scaleX(-1);
 }
+
+underline {
+  display: inline-block;
+  position: relative;
+}
+
+underline:before {
+  color: #999;
+  content: "~~~~~~~~~~~~~~~~";
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: Times New Roman, Serif;
+  letter-spacing: -.12em;
+  position: absolute;
+  top: 12px;
+  left: -1px;
+  overflow: hidden;
+}
