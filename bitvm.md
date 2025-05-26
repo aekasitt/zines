@@ -45,6 +45,57 @@
   <page-num>
     6
   </page-num>
+  <h2 style='margin-bottom: 0; padding-bottom: 0;'>
+    To Infinity and Beyond !!
+  </h2>
+  <img
+    alt='Compute Anything'
+    src='./static/arbitrary-computation.svg'
+    style='position: absolute; top: .8cm; right: 0; height: 3.6cm;'
+    >
+  <p class='text-justify'>
+    "BitVM unlocks any computation on 
+    <br />
+    <bitcoin></bitcoin> without changing its core
+    <br />
+    using NAND gates & challenges"
+  </p>
+  <img
+    alt='Swear'
+    src='./static/swear.svg'
+    style='position: absolute; top: 3.6cm; left: 1.2cm; height: 1.4cm;'
+    >
+  <p style='margin-left: 2cm;'>
+    <strong>
+      "Don't push spams to my nod..."
+    </strong>
+  </p>
+  <p class='text-center'>
+    Rather than executing computations on <bitcoin></bitcoin>, they are merely
+    <strong>
+      verified
+    </strong>,
+    similar to
+    <underline>
+      optimistic rollups.
+    </underline>
+  </p>
+  <h4 style='margin: 0; padding: 0;'>
+    Avoiding your Neighbor's Arbitrary Long Compute
+  </h4>
+  <p class='text-center'>
+    ~100 opcodes on <bitcoin></bitcoin>'s Script restricts the expressiveness
+    of Smart Contracts until now. If someone runs a program so big, it stuns
+    all running nodes, <bitcoin></bitcoin>'s decentralization gets compromised.
+  </p>
+  <p class='text-justify'>
+    Rollups give us the best of both worlds. Bitcoiners can
+    <underline>
+      Compute Anything
+    </underline>
+    by committing a large program in a Taproot address with minimal
+    footprint and no extra burden on the network.
+  </p>
 </zine-page>
 
 <zine-page class='right'>
@@ -182,6 +233,15 @@
   <page-num>
     7
   </page-num>
+  <p class='text-center'>
+    Better than allowing bloatwares on the mainchain, BitVM clears the path for
+    some important works in the cypherpunk world to emerge on <bitcoin></bitcoin>
+    discussions.
+  </p>
+  <p class='text-justify text-sqeezed'>
+    Independent teams rush to create Zero-Knowledge Proof Verifier on Bitcoin script
+    and Tapscript again with the workaround presented by BitVM research.
+  </p>
   <h4>
     Rate of Innovations
   </h4>
@@ -224,18 +284,6 @@
       </tr>
     </tbody>
   </table>
-  <h3>
-    Why are Rollups being discussed on <bitcoin></bitcoin> again?
-  </h3>
-  <p class='text-center'>
-    Better than allowing bloatwares on the mainchain, BitVM clears the path for
-    some important works in the cypherpunk world to emerge on <bitcoin></bitcoin>
-    discussions.
-  </p>
-  <p class='text-justify text-sqeezed'>
-    Independent teams rush to create Zero-Knowledge Proof Verifier on Bitcoin script
-    and Tapscript again with the workaround presented by BitVM research.
-  </p>
 </zine-page>
 
 <zine-page class='left'>
