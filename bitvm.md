@@ -80,7 +80,7 @@
       optimistic rollups.
     </underline>
   </p>
-  <h4 style='margin: 0; padding: 0;'>
+  <h4 class='lean'>
     Avoiding your Neighbor's Arbitrary Long Compute
   </h4>
   <p class='text-center'>
@@ -245,42 +245,42 @@
   <h4>
     Rate of Innovations
   </h4>
-  <table class='text-small' style='border: 0; margin: 0 auto;'>
-    <thead style='border: 0;'>
-      <tr style='border: 0;'>
-        <th style='border: 0;'>PROTOCOL</th>
-        <th style='border: 0;'>PREPROCESSING</th>
-        <th style='border: 0;'>STORAGE</th>
-        <th style='border: 0;'>ROUNDS</th>
+  <table class='seamless text-small' style='margin: 0 auto;'>
+    <thead>
+      <tr>
+        <th class='seamless'>PROTOCOL</th>
+        <th class='seamless'>PROCESSING TIME</th>
+        <th class='seamless'>STORAGE</th>
+        <th class='seamless'>ROUNDS</th>
       </tr>
     </thead>
-    <tbody style='border: 0;'>
-      <tr style='border: 0;'>
-        <td colspan='4' style='border: 0;'>
+    <tbody class='lean'>
+      <tr>
+        <td class=' leanseamless' colspan='4'>
           〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
         </td>
       </tr>
-      <tr style='border: 0;'>
-        <td style='border: 0;'>
+      <tr>
+        <td class='seamless'>
           BitVM
           <br />
           (gate-based)
         </td>
-        <td style='border: 0;'>Weeks</td>
-        <td style='border: 0;'>Terabytes</td>
-        <td style='border: 0;'>~ 50</td>
+        <td class='seamless'>Weeks</td>
+        <td class='seamless'>Terabytes</td>
+        <td class='seamless'>~ 50</td>
       </tr>
-      <tr style='border: 0;'>
-        <td style='border: 0;'>BitVM</td>
-        <td style='border: 0;'>Days</td>
-        <td style='border: 0;'>Gigabytes</td>
-        <td style='border: 0;'>~ 38</td>
+      <tr>
+        <td class='seamless'>BitVM</td>
+        <td class='seamless'>Days</td>
+        <td class='seamless'>Gigabytes</td>
+        <td class='seamless'>~ 38</td>
       </tr>
-      <tr style='border: 0;'>
-        <td style='border: 0;'>BitVM2</td>
-        <td style='border: 0;'>Minutes</td>
-        <td style='border: 0;'>Megabytes</td>
-        <td style='border: 0;'>1</td>
+      <tr>
+        <td class='seamless'>BitVM2</td>
+        <td class='seamless'>Minutes</td>
+        <td class='seamless'>Megabytes</td>
+        <td class='seamless'>1</td>
       </tr>
     </tbody>
   </table>
