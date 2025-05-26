@@ -166,9 +166,8 @@
   <img
     alt='Byzantine Generals forming Covenant'
     src='./static/byzantine-generals.svg'
-    style='position: absolute; left: 2.8cm; top: 5.6cm; width: 4.8cm;'
+    style='position: absolute; left: 2.8cm; top: 5.4cm; width: 4.8cm;'
     >
-  <br />
   <br />
   <br />
   <br />
@@ -178,12 +177,10 @@
   <br />
   <p class='text-center'>
     We do not yet have Covenants on <bitcoin></bitcoin>,
-    but we can emulate it.
-  </p>
-  <p class='text-small'>
-    Covenant emulation in BitVM2 is a workaround that uses a signer
-    committee to mimic advanced spending conditions not natively supported
-    by <bitcoin></bitcoin>, introducing a small trust assumption.
+    but we can emulate it. Covenant emulation in BitVM2 is a workaround
+    that uses a signer committee to mimic advanced spending conditions
+    not natively supported by <bitcoin></bitcoin>, introducing a small
+    trust assumption.
   </p>
 </zine-page>
 
@@ -242,9 +239,9 @@
     Independent teams rush to create Zero-Knowledge Proof Verifier on Bitcoin script
     and Tapscript again with the workaround presented by BitVM research.
   </p>
-  <h4>
+  <h3 class='lean'>
     Rate of Innovations
-  </h4>
+  </h3>
   <table class='seamless text-small' style='margin: 0 auto;'>
     <thead>
       <tr>
@@ -255,35 +252,54 @@
       </tr>
     </thead>
     <tbody class='lean'>
-      <tr>
-        <td class=' leanseamless' colspan='4'>
+      <tr class='lean'>
+        <td class='lean seamless' colspan='4'>
           〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
         </td>
       </tr>
-      <tr>
-        <td class='seamless'>
+      <tr class='lean'>
+        <td class='lean seamless'>
           BitVM
           <br />
           (gate-based)
         </td>
-        <td class='seamless'>Weeks</td>
-        <td class='seamless'>Terabytes</td>
-        <td class='seamless'>~ 50</td>
+        <td class='lean seamless'>Weeks</td>
+        <td class='lean seamless'>Terabytes</td>
+        <td class='lean seamless'>~ 50</td>
       </tr>
-      <tr>
-        <td class='seamless'>BitVM</td>
-        <td class='seamless'>Days</td>
-        <td class='seamless'>Gigabytes</td>
-        <td class='seamless'>~ 38</td>
+      <tr class='lean'>
+        <td class='lean seamless'>BitVM</td>
+        <td class='lean seamless'>Days</td>
+        <td class='lean seamless'>Gigabytes</td>
+        <td class='lean seamless'>~ 38</td>
       </tr>
-      <tr>
-        <td class='seamless'>BitVM2</td>
-        <td class='seamless'>Minutes</td>
-        <td class='seamless'>Megabytes</td>
-        <td class='seamless'>1</td>
+      <tr class='lean'>
+        <td class='lean seamless'>BitVM2</td>
+        <td class='lean seamless'>Minutes</td>
+        <td class='lean seamless'>Megabytes</td>
+        <td class='lean seamless'>1</td>
       </tr>
     </tbody>
   </table>
+  <br />
+  <table class='contents-centered'>
+    <tr>
+      <td>
+        <small-splash-left></small-splash-left>
+      </td>
+      <td>
+        and it's FOSS !!
+      </td>
+      <td>
+        <small-splash-right></small-splash-right>
+      </td>
+    </tr>
+  </table>
+  <p class='text-center' style='margin-top: 0;'>
+    In March 2025, ZeroSync completed a first proof-of-concept implementation of
+    zkCoins and the BitVM alliance completed the implementation of BitVM bridges
+    available under the MIT License
+  </p>
 </zine-page>
 
 <zine-page class='left'>
