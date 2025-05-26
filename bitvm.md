@@ -201,7 +201,11 @@
         </td>
       </tr>
       <tr style='border: 0;'>
-        <td style='border: 0;'>BitVM (gate-based)</td>
+        <td style='border: 0;'>
+          BitVM
+          <br />
+          (gate-based)
+        </td>
         <td style='border: 0;'>Weeks</td>
         <td style='border: 0;'>Terabytes</td>
         <td style='border: 0;'>~ 50</td>
