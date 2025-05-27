@@ -1,8 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg
-  fill='#000000'
+  preserveAspectRatio='xMidYMid meet'
+  version='1.1'
   viewBox='0 0 56 56'
+  xml:space='default'
   xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
   >
   <path
     d='
@@ -36,7 +40,7 @@
       L 47.9922 36.7187
       C 47.9922 37.9843 47.5468 38.7109 46.2110 39.4609 Z
     '
-    id='cube'
+    fill='black'
   />
   <path
     d='

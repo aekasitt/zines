@@ -1,13 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg
-  fill='none'
-  height='800px'
+  preserveAspectRatio='xMidYMid meet'
   viewBox='0 0 24 24'
-  width='800px'
+  version='1.1'
+  xml:space='default'
   xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
   >
   <g
     clip-rule='evenodd' 
+    fill='none'
     fill-rule='evenodd'
     >
     <path
