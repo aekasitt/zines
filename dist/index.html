@@ -137,7 +137,7 @@
           'taproot',
           'taproot.th'
         ].includes(hash) ? hash : 'bips'
-        Vue.createApp({ components: { Flipbook }, data: () => ({ zine }), el: '#app'})
+        Vue.createApp({ components: { Flipbook }, data: () => ({ zine })}).mount('#app')
         document.querySelector('#zineSelector').value = zine
         window.location.hash = ''
       }
