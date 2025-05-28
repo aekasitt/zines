@@ -11,8 +11,8 @@
     <meta content='https://aekasitt.github.io/zines/' property='og:url' />
     <meta httprime-equiv='X-UA-Compatible' content='IE=edge' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <script src='https://unpkg.com/vue@2.7.16/dist/vue.js'></script>
-    <script src='https://unpkg.com/flipbook-vue/dist/vue2/flipbook.min.js'></script>
+    <script src='https://unpkg.com/vue'></script>
+    <script src='https://unpkg.com/flipbook-vue'></script>
     <title>
       Zines
     </title>
@@ -137,7 +137,7 @@
           'taproot',
           'taproot.th'
         ].includes(hash) ? hash : 'bips'
-        new Vue({ data: { zine }, el: '#app' })
+        Vue.createApp({ components: { Flipbook }, data: () => ({ zine }), el: '#app'})
         document.querySelector('#zineSelector').value = zine
         window.location.hash = ''
       }
