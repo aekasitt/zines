@@ -39,9 +39,9 @@
       </td>
       <td class='lean seamless'>
         <img
-          alt='ZeroSync Cube'
-          src='./static/cube.svg'
-          style='height: 1.2cm; left: 2cm; position: absolute; width: 1.2cm;'
+          alt='ZeroSync Grayscale'
+          src='./static/zerosync-grayscale.svg'
+          style='height: 1.8cm; left: 1.8cm; margin-top: -.3cm; position: absolute; width: 1.8cm;'
           >
         <p class='lean text-center' style='margin-left: 1.2cm;'>
           ZeroSync
