@@ -484,8 +484,8 @@
     discussions.
   </p>
   <p class='text-justify text-sqeezed'>
-    Independent teams rush to create Zero-Knowledge Proof Verifier on Bitcoin script
-    and Tapscript again with the workaround presented by BitVM research.
+    Independent teams rush to create Zero-Knowledge Proof Verifier on <bitcoin></bitcoin>
+    Script and Tapscript again with the workaround presented by BitVM research.
   </p>
   <h3 class='lean'>
     Rate of Innovations
