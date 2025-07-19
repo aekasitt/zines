@@ -7,6 +7,14 @@ bitcoin:after {
   content: 'bitcoin';
 }
 
+.th bitcoin {
+  font-family: 'Mali';
+  font-weight: 600;
+}
+.th bitcoin:after {
+  content: 'บิทคอยน์';
+}
+
 /* default headers */
 
 h1, h2, h3 {
