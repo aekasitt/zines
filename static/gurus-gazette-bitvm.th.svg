@@ -12,7 +12,7 @@
     <path id='arc'
       d='
         M10,80
-        c0,0 140,-100 280,0z'
+        c0,0 140,-120 280,0z'
       >
     </path>
     <path id='arc-inverted'
