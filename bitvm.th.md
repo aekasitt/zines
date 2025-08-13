@@ -566,10 +566,146 @@
   <page-num>
     หน้า ๔ (4)
   </page-num>
+  <h3 style='padding-bottom: 0; margin-bottom: 0;'>
+    ทำไมต้องพูดถึง Covenants เมื่อหัวข้อหลักเป็น BitVM ?
+  </h3>
+  <p class='text-center'>
+    เพราะ <bitcoin></bitcoin> เป็นผู้ตรวจสอบแบบกระจายอำนาจเพียงหนึ่งเดียวในโลก
+    เครือข่ายทำการตรวจสอบความถูกต้องของหลักฐาน ลายเซ็น และธุรกรรมอย่างเท่าเทียม
+  </p>
+  <p class='text-small' style='margin: 0 .8cm;'>
+    การตัดสินใจในการออกแบบภายใต้ <bitcoin></bitcoin> รวมถึงความไม่สมบูรณ์ตามการประมวลผลทัวริ่ว
+    (Turing completeness) ในภาษาสคริปต์ ทำให้โหนดทุกตัวสามารถตรวจสอบสคริปต์ได้อย่างมีประสิทธิภาพ
+    ด้วยองค์ประกอบสแตก 1,000 ตัว และ 201 opcode โดยไม่ต้องเชื่อใจใคร
+  </p>
+  <p class='text-center text-squeezed'>
+    ทั้ง Covenants และ BitVM ท้าทายขีดจำกัดนี้ แต่ BitVM ทำได้
+    โดยไม่ต้องมีการเปลี่ยนแปลงโปรโตคอล <bitcoin></bitcoin>
+    <br />
+    (ยังไม่ใช่ตอนนี้) แต่ด้วยการเปลี่ยนแปลงแนวคิดครั้งใหญ่
+  </p>
+  <h4>
+    ตอนนี้ชาวบิทคอยน์สามารถทำอะไรได้บ้าง ที่เคยทำไม่ได้ก่อนหน้านี้?
+  </h4>
+  <img
+    alt='Bristol Circuit'
+    src='./static/bristol-circuit.svg'
+    style='position: absolute; bottom: 1.8cm; left: .4cm; height: 2cm;'
+    >
+  <img
+    alt='Shielded Client-side Validation'
+    src='./static/shielded-csv.svg'
+    style='position: absolute; bottom: 2.2cm; left: 2cm; height: 2cm;'
+    >
+  <img
+    alt='Proof System'
+    src='./static/proof-system.svg'
+    style='position: absolute; bottom: 1.6cm; left: 3cm; height: 2cm;'
+    >
+  <img
+    alt='Arbitrary Computation'
+    src='./static/arbitrary-computation.svg'
+    style='position: absolute; bottom: 2cm; left: 4.2cm; height: 2cm;'
+    >
+  <img
+    alt='Covenant Lite'
+    src='./static/covenant-lite.svg'
+    style='position: absolute; bottom: 1.6cm; left: 5.6cm; height: 2cm;'
+    >
+  <img
+    alt='Bridge'
+    src='./static/sidechain-bridge.svg'
+    style='position: absolute; bottom: 2cm; left: 7.4cm; height: 2cm;'
+    >
+  <p
+    class='text-center text-small'
+    style='bottom: 3.2cm; left: .4cm; line-height: 1; position: absolute;'>
+    บริสตอล
+    <br/>
+    เซอร์คิท
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 1.2cm; left: 1.4cm; line-height: 1; position: absolute;'
+    >
+    ชิลเด็ด
+    <br/>
+    ซีเอสวี
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 3.2cm; left: 2.6cm; line-height: 1; position: absolute;'
+    >
+    ระบบพิสูจน์
+    <br/>
+    ฉ้อโกง
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 1.2cm; left: 3.8cm; line-height: 1; position: absolute;'
+    >
+    ประมวลผล
+    <br/>
+    พีงประสงค์
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 3.2cm; left: 5.2cm; line-height: 1; position: absolute;'
+    >
+    โคฟเวอแน้นท์
+    <br/>
+    เบา ๆ
+  </p>
+  <p
+    class='text-center text-small'
+    style='bottom: 1.2cm; left: 7cm; line-height: 1; position: absolute;'
+    >
+    ไซด์
+    <br/>
+    เลเยอร์
+  </p>
 </zine-page>
 
 <zine-page class='right th'>
   <page-num>
     หน้า ๕ (5)
   </page-num>
+  <h2 style='margin-bottom: 0; padding-bottom: 0;'>
+    มาดูการอัปเกรดที่ใช้งานง่ายสำหรับผู้ใช้กันเถอะ !!
+  </h2>
+  <img
+    alt='Shielded Client-side Validation'
+    src='./static/shielded-csv.svg'
+    style='position: absolute; top: 1cm; left: -.2cm; height: 4cm;'
+    >
+  <h4 style='margin-bottom: 0; margin-right: 1cm; text-align: right;'>
+    ไคลเอนต์ไชด์วาลิเดชั่นคุมเกราะ
+    <br />
+    (Shielded Client-Side Validation)
+  </h4>
+  <p class='text-justify text-squeezed' style='margin-bottom: 0; margin-left: 1.8cm;'>
+    ประวัติการทำธุรกรรมเป็นแหล่งข้อมูลที่สำคัญสำหรับเชื่อมโยงธุรกรรม และเปิดเผยตัวตน
+  </p>
+  <p style='margin-top: 0; padding-top: 0;'>
+    ของผู้ใช้ โปรโตคอลการตรวจสอบฝั่งไคลเอนต์ (Client-Side Validation) ที่หลักฐานของเหรียญ
+    เผยประวัติการทำธุรกรรมของเหรียญนั้น ให้ข้อได้เปรียบเรื่องความเป็นส่วนตัวมากกว่าธุรกรรมบนบล็อกเชน
+    แบบโปร่งใส ผู้ส่งจะกระจายตัวบ่งชี้ (nullifiers) ไปยังผู้รับซึ่งประกอบด้วยประวัติเต็มของเหรียญ
+  </p>
+  <p class='text-left'>
+    <strong>
+    โมเดล CSV ที่เป็นที่รู้จักในปัจจุบัน
+    </strong>
+  </p>
+  <ul class='text-left'>
+    <li>
+      โปรโตคอล RGB
+    </li>
+    <li>
+      Taproot Assets ของ Lightning Labs
+    </li>
+  </ul>
+  <p class='text-center'>
+    ด้วยแนวคิด Shielded CSV บน BitVM รอยเท้าตัวบ่งชี้ (nullifier) สามารถจำกัดขนาดให้อยู่ที่ 64 ไบต์
+    และประกอบด้วยเฉพาะหลักฐานความถูกต้องโดยไม่เปิดเผยข้อมูลที่ทำให้สูญเสียความเป็นนิรนาม
+  </p>
 </zine-page>
