@@ -446,12 +446,120 @@
   <page-num>
     หน้า ๒ (2)
   </page-num>
-</zine-page>
-
-<zine-page class='right th'>
-  <page-num>
-    หน้า ๗ (7)
-  </page-num>
+  <h3>
+      บิทวีเอ็มคือสะพารเชื่อมระหว่าง <bitcoin></bitcoin> กับระบบนิเวศน์เสริมข้างเคียง
+    </h3>
+    <img
+      alt='Golden Gate bridge'
+      src='./static/golden-gate.svg'
+      style='position: absolute; left: 3.2cm; top: 2cm; width: 3.6cm;'
+      >
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <p>
+      โดยทั่วไป สะพานเชื่อมจะได้รับการรักษาความปลอดภัยโดยใช้ระบบมัลติซิกแบบสหพันธ์ (federated multisig)
+      ซึ่งการถอนเงินไม่สามารถทำได้ฝ่ายเดียว แต่ต้องได้รับการอนุมัติจากเสียงข้างมาก
+    </p>
+    <table class='contents-centered'>
+      <tr>
+        <td>
+          <small-splash-left></small-splash-left>
+        </td>
+        <td>
+          <h2>
+            BitVM เหมือนเพื่อนซะที่ไหน !!
+          </h2>
+        </td>
+        <td>
+          <small-splash-right></small-splash-right>
+        </td>
+      </tr>
+    </table>
+    <p class='text-squeezed'>
+      มันคือโมเดลความเชื่อถือแบบ 1 ใน N ซึ่งตราบใดที่มีผู้ดำเนินการที่ซื่อสัตย์เพียงหนึ่งคนที่ยังทำงานอยู่
+      คุณก็สามารถถอนมูลค่าบนเชนออกมาได้ ผู้ใช้สามารถเดิมพัน
+      ที่ผู้ดำเนินการซื่อสัตย์คนเดียวแทนที่จะต้องอาศัยเสียงส่วนใหญ่ของผู้เข้าร่วมในสหพันธ์
+    </p>
+  </zine-page>
+  
+  <zine-page class='right th'>
+    <page-num>
+      หน้า ๗ (7)
+    </page-num>
+    <p class='text-center'>
+      แทนที่จะปล่อยให้ซอฟต์แวร์ที่ไม่จำเป็นเพิ่มภาระบนเชนหลักเมนเน็ต
+      BitVM กลับเป็นการเปิดทางให้ผลงานสำคัญบางอย่าง
+      ในโลกไซเฟอร์พังค์ได้ปรากฏในวงการค้นคว้าวิจัยแล้วโต้เถียงพัฒนา
+      <bitcoin></bitcoin>
+    </p>
+    <p class='text-justify text-sqeezed'>
+      ทีมอิสระเร่งสร้างตัวตรวจสอบพิสูจน์ความรู้เป็นศูนย์ (Zero-Knowledge Proof Verifier) บน <bitcoin></bitcoin>
+      สคริปต์และแทปสคริปต์อีกครั้งด้วยวิธีแก้ไขที่นำเสนอโดยการวิจัย BitVM
+    </p>
+    <h3 class='lean'>
+      อัตราการเติบโตของนวัตกรรม
+    </h3>
+    <table class='seamless text-small' style='margin: 0 auto;'>
+      <thead>
+        <tr>
+          <th class='seamless'>โปรโตคอล</th>
+          <th class='seamless'>ระยะเวลาดำเนินผล</th>
+          <th class='seamless'>ขนาดธุรกรรม</th>
+          <th class='seamless'>รอบธุรกรรม</th>
+        </tr>
+      </thead>
+      <tbody class='lean'>
+        <tr class='lean'>
+          <td class='lean seamless' colspan='4'>
+            〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰
+          </td>
+        </tr>
+        <tr class='lean'>
+          <td class='lean seamless'>
+            บิมวีเอ็ม
+            <br />
+            (ลอจิกเกต)
+          </td>
+          <td class='lean seamless'>หลายสัปดาห์</td>
+          <td class='lean seamless'>เทร่าไบต์</td>
+          <td class='lean seamless'>~ 50</td>
+        </tr>
+        <tr class='lean'>
+          <td class='lean seamless'>บิทวีเอ็ม</td>
+          <td class='lean seamless'>หลายวัน</td>
+          <td class='lean seamless'>กิกาไบต์</td>
+          <td class='lean seamless'>~ 38</td>
+        </tr>
+        <tr class='lean'>
+          <td class='lean seamless'>BitVM2</td>
+          <td class='lean seamless'>หลายนาที</td>
+          <td class='lean seamless'>เมกาไบต์</td>
+          <td class='lean seamless'>1</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table class='contents-centered'>
+      <tr>
+        <td>
+          <small-splash-left></small-splash-left>
+        </td>
+        <td>
+          แล้วมันโอเพ่นซอร์สด้วย !!
+        </td>
+        <td>
+          <small-splash-right></small-splash-right>
+        </td>
+      </tr>
+    </table>
+    <p class='text-center' style='margin-top: 0;'>
+      ในเดือนมีนาคม 2025 ZeroSync ได้ทำการทดสอบแนวคิดเบื้องต้นของ zkCoins เสร็จสมบูรณ์
+      และพันธมิตร BitVM อัลลิแอ๊นซ์ได้ดำเนินการพัฒนาสะพานเชื่อม BitVM ภายใต้ใบอนุญาต MIT แล้ว
+    </p>
 </zine-page>
 
 <zine-page class='left th'>
