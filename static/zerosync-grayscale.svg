@@ -42,7 +42,7 @@
     <mask id='outline'
       height='185'
       maskUnits='userSpaceOnUse'
-      style='mask-type:alpha'
+      style='mask-type: alpha'
       x='48'
       y='39'
       width='167'
@@ -65,7 +65,7 @@
         '
         fill='white'/>
     </mask>
-    <mask id='mask1_1_48'
+    <mask id='glare'
       height='113'
       maskUnits='userSpaceOnUse'
       style='mask-type: alpha'
@@ -173,7 +173,7 @@
     '
     fill='url(#highlight)'
   />
-  <g mask='url(#mask1_1_48)'>
+  <g mask='url(#glare)'>
     <path
       d='
         M131.596 190.186
