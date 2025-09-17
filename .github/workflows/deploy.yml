@@ -84,6 +84,16 @@ jobs:
           pdftoppm -jpeg -r 300 payjoin.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/payjoin.th.7
           pdftoppm -jpeg -r 300 payjoin.th.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/payjoin.th.4
           pdftoppm -jpeg -r 300 payjoin.th.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/payjoin.th.5
+      - name: Unbind 'Simplicity' booklet into image pages
+        run: |
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/simplicity.8
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 1 -l 1 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/simplicity.1
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 1 -l 1 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/simplicity.6
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 1 -l 1 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/simplicity.3
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 2 -l 2 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/simplicity.2
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 2 -l 2 -singlefile -x 1240 -y 0 -W 1240 -H 1754 dist/simplicity.7
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 2 -l 2 -singlefile -x 0 -y 1754 -W 1240 -H 1754 dist/simplicity.4
+          pdftoppm -jpeg -r 300 simplicity.pdf -f 2 -l 2 -singlefile -x 1240 -y 1754 -W 1240 -H 1754 dist/simplicity.5
       - name: Unbind 'Taproot' booklet into image pages
         run: |
           pdftoppm -jpeg -r 300 taproot.pdf -f 1 -l 1 -singlefile -x 0 -y 0 -W 1240 -H 1754 dist/taproot.8
