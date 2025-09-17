@@ -118,6 +118,7 @@ jobs:
         run: |
           cp static/acrobat.svg dist/acrobat.svg
           cp static/bthulu.svg dist/bthulu.svg
+          cp static/forest-god.svg dist/forest-god.svg
           cp static/github.svg dist/github.svg
           cp static/graffiti.svg dist/graffiti.svg
           cp static/sir.svg dist/sir.svg
