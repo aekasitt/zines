@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg
+  preserveAspectRatio='xMidYMid meet'
+  version='1.1'
+  viewBox='0 0 193 193'
+  xml:space='default'
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  >
+  <defs>
+    <mask id='outline'
+      height='100%'
+      maskUnits='userSpaceOnUse'
+      style='mask-type: alpha'
+      x='0'
+      y='0'
+      width='100%'
+      >
+      <rect
+        fill='white'
+        height='58.0523'
+        transform='rotate(45 96.0328 55)'
+        width='58.0523'
+        x='96.0328'
+        y='55'
+      />
+      <rect
+        fill='white'
+        height='58.0523'
+        transform='rotate(45 41.0492 0)'
+        width='58.0523'
+        x='41.0492'
+      />
+      <rect
+        fill='white'
+        height='58.0523'
+        transform='rotate(45 41.0492 110)'
+        width='58.0523'
+        x='41.0492'
+        y='110'
+      />
+    </mask>
+  </defs>
+  <g transform='translate(33)'>
+    <rect
+      fill='white'
+      height='58.0523'
+      stroke='black'
+      stroke-width='3'
+      transform='rotate(45 96.0328 55)'
+      width='58.0523'
+      x='96.0328'
+      y='55'
+    />
+    <rect
+      fill='#FF9517'
+      height='58.0523'
+      stroke='black'
+      stroke-width='3'
+      transform='rotate(45 41.0492 0)'
+      width='58.0523'
+      x='41.0492'
+    />
+    <rect
+      fill='#FF9517'
+      height='58.0523'
+      stroke='black'
+      stroke-width='3'
+      transform='rotate(45 41.0492 110)'
+      width='58.0523'
+      x='41.0492'
+      y='110'
+    />
+    <rect
+      height='100%'
+      fill='black'
+      mask='url(#outline)'
+      x='0'
+      y='0'
+      width='100%'
+      style='mix-blend-mode: saturation'
+    />
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg
+  preserveAspectRatio='xMidYMid meet'
+  version='1.1'
+  viewBox='0 0 311 311'
+  xml:space='default'
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svgjs='http://svgjs.dev/svgjs'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  >
+  <defs>
+    <mask id='outline'
+      height='100%'
+      maskUnits='userSpaceOnUse'
+      style='mask-type: alpha'
+      x='0'
+      y='0'
+      width='100%'
+      >
+      <polygon
+        fill='white'
+        points='
+          136.3,186.1
+          60.6,309.6
+          0,309.6
+          108.5,135.5
+        '
+      />
+      <polygon
+        fill='#E09A02'
+        points='
+          291.7,309.6
+          232.4,309.6
+          121.2,107.7
+          70.2,107.7
+          28.8,32.4
+          80.1,32.4
+          66.7,7.3
+          125.6,7.3
+        '
+      />
+    </mask>
+  </defs>
+  <polygon
+    fill='white'
+    points='
+      136.3,186.1
+      60.6,309.6
+      0,309.6
+      108.5,135.5
+    '
+    stroke='black'
+    stroke-width='3'
+  />
+	<polygon
+    fill='#E09A02'
+    points='
+      291.7,309.6
+      232.4,309.6
+      121.2,107.7
+      70.2,107.7
+      28.8,32.4
+      80.1,32.4
+      66.7,7.3
+      125.6,7.3
+    '
+    stroke='black'
+    stroke-width='3'
+  />
+  <rect
+      height='100%'
+      fill='black'
+      mask='url(#outline)'
+      x='0'
+      y='0'
+      width='100%'
+      style='mix-blend-mode: saturation'
+    />
+</svg>
