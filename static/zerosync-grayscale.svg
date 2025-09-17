@@ -19,10 +19,10 @@
       <stop
         stop-color='#F7931A'
       />
-    <stop
-      offset='1'
-      stop-color='#F7B11A'
-    />
+      <stop
+        offset='1'
+        stop-color='#F7B11A'
+      />
     </linearGradient>
     <linearGradient id='highlight'
       gradientUnits='userSpaceOnUse'
